@@ -1,0 +1,2 @@
+# lerna-js
+Lerna JS
