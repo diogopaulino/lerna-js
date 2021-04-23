@@ -1,5 +1,8 @@
 {
   "name": "@erna-js/hello",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.22",
   "description": "none",
   "keywords": [
@@ -26,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "1b1a21fca970583548e1b5c0a18808ec12a911c1"
+  "gitHead": "e7d4f389f3711fae3da867b55c9d27cc2df254af"
 }
