@@ -1,19 +1,17 @@
 {
-  "name": "@lerna-js/single",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.0.9",
-  "description": "hello world",
+  "name": "hello",
+  "version": "1.0.17",
+  "description": "none",
   "keywords": [
-    "hello"
+    "test"
   ],
   "author": "Diogo Paulino <diogopaulino.web@gmail.com>",
-  "homepage": "http://github/page",
+  "homepage": "https://github.com/diogopaulino/lerna-js#readme",
   "license": "ISC",
   "main": "lib/hello.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -27,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
-  },
-  "gitHead": "cc04b6bcf83b602d192330ef61554cf66aa89e1b"
+  }
 }
