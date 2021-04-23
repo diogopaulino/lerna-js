@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "@erna-js/hello",
   "version": "1.0.18",
   "description": "none",
   "keywords": [
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
-  }
+  },
+  "gitHead": "ab918707461b84c9a7b43652acca19a4f0f7a053"
 }
