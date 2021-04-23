@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-js/hello",
+  "name": "@codigosimples/hello",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "3f1f852ee0e83910d3eecc6d31acc15d560b3a94"
+  "gitHead": "82f1931b12d6c8581f9431f86f1dce1151e7a38e"
 }
