@@ -1,6 +1,5 @@
 {
-  "name": "lib-hello-monorepo",
-  "version": "1.0.0",
+  "name": "lib-hello-monorepo", 
   "description": "hello monorepo",
   "private": false,  
   "devDependencies": {
