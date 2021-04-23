@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = hello;
+module.exports = helloMessage;
 
-function hello() {
-    // TODO
+function hello(name) {
+  console.log(`Hello ${name}!`);
 }
