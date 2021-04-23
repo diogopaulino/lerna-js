@@ -1,5 +1,7 @@
 {
-  "name": "root",
+  "name": "lib-hello-monorepo",
+  "version": "1.0.0",
+  "description": "hello monorepo",
   "private": false,  
   "devDependencies": {
     "lerna": "^3.22.1"
