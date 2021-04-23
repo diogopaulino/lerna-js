@@ -1,5 +1,5 @@
 {
-  "name": "@erna-js/hello",
+  "name": "@lerna-js/hello",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "e7d4f389f3711fae3da867b55c9d27cc2df254af"
+  "gitHead": "3f1f852ee0e83910d3eecc6d31acc15d560b3a94"
 }
