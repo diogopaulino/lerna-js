@@ -13,6 +13,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -26,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "6d77f0efe4374ea641c26ea9e3bf6ec4072e52db"
+  "gitHead": "e2398f41b2ffdf1d0d483a53d72b9bdea8b9a86a"
 }
