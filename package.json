@@ -1,17 +1,8 @@
 {
-  "name": "lib-hello-multiple",
-  "version": "1.0.1",
-  "description": "Hello World!",
-  "main": "src/index.js",  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diogopaulino/hello-multiple.git"
-  },
-  "homepage": "https://github.com/diogopaulino/hello-multiple",
-  "author": "Diogo Paulino",
-  "license": "MIT",
-  "private": false,
+  "name": "root",
+  "private": false,  
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "license": "MIT"
 }
