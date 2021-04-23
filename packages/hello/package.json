@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "@lib-hello-monorepo/single",
   "version": "1.0.1",
   "description": "hello world",
   "keywords": [
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
-  }
+  },
+  "gitHead": "26d25e4b9af2774c965aae3b9c4dec4030f3b5f6"
 }
