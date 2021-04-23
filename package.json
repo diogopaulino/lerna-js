@@ -5,9 +5,9 @@
   "main": "src/index.js",  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diogopaulino/hello.git"
+    "url": "git+https://github.com/diogopaulino/hello-multiple.git"
   },
-  "homepage": "https://github.com/diogopaulino/hello",
+  "homepage": "https://github.com/diogopaulino/hello-multiple",
   "author": "Diogo Paulino",
   "license": "MIT",
   "private": false,
