@@ -1,5 +1,8 @@
 {
   "name": "@lib-hello-monorepo/single",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.7",
   "description": "hello world",
   "keywords": [
@@ -10,11 +13,7 @@
   "license": "ISC",
   "main": "lib/hello.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "publishConfig": {
-    "access": "public"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -29,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "14e1096717b09cee5d51da1892a4e194a07940e4"
+  "gitHead": "26532567c2cf766d34cb3e223d7df323f6e902f6"
 }

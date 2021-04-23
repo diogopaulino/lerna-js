@@ -1,9 +1,8 @@
 {
-  "name": "lib-hello-monorepo", 
+  "name": "root", 
   "description": "hello monorepo",
-  "private": false,  
+  "private": true,  
   "devDependencies": {
     "lerna": "^3.22.1"
-  },
-  "license": "MIT"
+  }
 }
