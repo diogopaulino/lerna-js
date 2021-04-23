@@ -1,5 +1,5 @@
 {
-  "name": "@lib-hello-monorepo/single",
+  "name": "@lerna-js/single",
   "publishConfig": {
     "access": "public"
   },
@@ -28,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/diogopaulino/lerna-js/issues"
   },
-  "gitHead": "26532567c2cf766d34cb3e223d7df323f6e902f6"
+  "gitHead": "cc04b6bcf83b602d192330ef61554cf66aa89e1b"
 }
