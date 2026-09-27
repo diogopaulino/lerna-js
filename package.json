@@ -9,12 +9,15 @@
     "list": "lerna list",
     "changed": "lerna changed",
     "version": "lerna version",
-    "publish": "lerna publish from-package"
+    "publish": "lerna publish from-package",
+    "check": "npm test && npm run list"
   },
   "devDependencies": {
     "lerna": "10.0.1"
   },
   "engines": {
     "node": ">=22.0.0"
-  }
+  },
+  "description": "Modern Lerna monorepo example using native npm workspaces.",
+  "packageManager": "npm@10.9.8"
 }
