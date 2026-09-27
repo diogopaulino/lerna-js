@@ -1,7 +1,20 @@
 {
-  "name": "root",
+  "name": "lerna-js",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "list": "lerna list",
+    "changed": "lerna changed",
+    "version": "lerna version",
+    "publish": "lerna publish from-package"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "10.0.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }

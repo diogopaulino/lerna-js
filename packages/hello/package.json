@@ -1,33 +1,22 @@
 {
   "name": "@codigosimples/hello",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "1.0.25",
-  "description": "none",
-  "keywords": [
-    "test"
-  ],
-  "author": "Diogo Paulino <diogopaulino.web@gmail.com>",
-  "homepage": "https://github.com/diogopaulino/lerna-js#readme",
-  "license": "ISC",
-  "main": "lib/hello.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "description": "Minimal workspace package used to demonstrate a modern Lerna monorepo.",
+  "type": "module",
+  "exports": "./src/index.js",
   "files": [
-    "lib"
+    "src"
   ],
+  "scripts": {
+    "test": "node --test"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diogopaulino/lerna-js.git"
+    "url": "git+https://github.com/diogopaulino/lerna-js.git",
+    "directory": "packages/hello"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/diogopaulino/lerna-js/issues"
-  },
-  "gitHead": "82f1931b12d6c8581f9431f86f1dce1151e7a38e"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

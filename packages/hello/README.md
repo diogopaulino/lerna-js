@@ -1,11 +1,9 @@
-# `hello`
+# @codigosimples/hello
 
-> TODO: description
+Small example package used by the repository to demonstrate Lerna + npm workspaces.
 
-## Usage
+```js
+import { hello } from '@codigosimples/hello'
 
-```
-const hello = require('hello');
-
-// TODO: DEMONSTRATE API
+hello('Diogo')
 ```

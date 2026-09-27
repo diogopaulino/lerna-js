@@ -1,17 +1,29 @@
-# Lerna Monorepo Experiment
+# Lerna + npm workspaces
 
-> **Legacy experiment.** A minimal repository created to test Lerna package management and publishing.
+A small, current monorepo example using **Lerna 10** with native **npm workspaces**.
 
-This project uses **Lerna 3** and contains only a small example package. Modern Lerna has changed substantially, so updating dependency versions alone would not be a meaningful migration.
+## Stack
 
-For a new monorepo, start from the current Lerna documentation and tooling instead of using this repository as a template:
+- Lerna 10.0.1
+- npm workspaces
+- Native Node.js test runner
+- Node.js 22+
 
-https://lerna.js.org/
+## Setup
 
-## Historical purpose
+```bash
+npm install
+npm test
+```
 
-- Test a multi-package repository
-- Experiment with package versioning and publishing
-- Validate a basic Lerna workflow
+## Useful commands
 
-Kept as a historical reference, not as a production-ready starter.
+```bash
+npm run list
+npm run changed
+npm run version
+```
+
+Lerna now focuses on monorepo orchestration and publishing while the package manager handles dependency installation and workspace linking. This repository follows that model instead of the old Lerna 3 bootstrap workflow.
+
+Docs: https://lerna.js.org/
