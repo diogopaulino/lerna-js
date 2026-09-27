@@ -19,5 +19,6 @@
     "node": ">=22.0.0"
   },
   "description": "Modern Lerna monorepo example using native npm workspaces.",
-  "packageManager": "npm@10.9.8"
+  "packageManager": "npm@10.9.8",
+  "license": "MIT"
 }
