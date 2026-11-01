@@ -13,7 +13,7 @@
     "check": "npm test && npm run list"
   },
   "devDependencies": {
-    "lerna": "10.0.1"
+    "lerna": "10.1.1"
   },
   "engines": {
     "node": ">=22.0.0"
